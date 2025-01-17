@@ -5,8 +5,8 @@
 #define BOARD_ID_STR            "CUL868"
 #define BOARD_ID_USTR           L"CUL868"
 
-#define HAS_FHT_80b                     // PROGMEM: 1374b, RAM: 90b
-#define HAS_RF_ROUTER                   // PROGMEM: 1248b  RAM: 44b
+//#define HAS_FHT_80b                     // PROGMEM: 1374b, RAM: 90b
+//#define HAS_RF_ROUTER                   // PROGMEM: 1248b  RAM: 44b
 #define HAS_CC1101_RX_PLL_LOCK_CHECK_TASK_WAIT	// PROGMEM: 118b
 #define HAS_CC1101_PLL_LOCK_CHECK_MSG		// PROGMEM:  22b
 #define HAS_CC1101_PLL_LOCK_CHECK_MSG_SW	// PROGMEM:  22b
@@ -35,7 +35,7 @@
 #define HAS_ZWAVE
 #define LACROSSE_HMS_EMU
 
-#define TTY_BUFSIZE          128
+#define TTY_BUFSIZE          384
 
 #include <avr/io.h>
 #include <avr/power.h>
