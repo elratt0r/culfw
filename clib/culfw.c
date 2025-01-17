@@ -10,6 +10,7 @@
 #include "arch.h"
 #include "display.h"
 #include "fncollection.h"
+#include "registry.h"
 #include "led.h"		// ledfunc
 #include "ringbuffer.h"
 #include "rf_receive.h"
